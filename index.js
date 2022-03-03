@@ -20,7 +20,7 @@ client.on("message", async (message) => {
 
   if (authorMessage === "!sayac")
     await message.reply(
-      `${Math.abs(
+      `Mehmet Kardeşimizin Askerden Dönmesine ${Math.abs(
         Math.floor(days).toFixed(2)
       )} Gün, ${hour} Saat, ${minute} Dakika, ${second} Saniye kaldı!
         `
